@@ -1,0 +1,80 @@
+@import '../scss/colorsroot.scss';
+
+.Search_name {
+    .fa-solid {
+        color: rgb(245, 197, 27);
+        position: relative;
+        left: 1.5rem;
+    }
+
+    text-transform: capitalize;
+    font-size: 2.7rem;
+    color: #ffffff;
+    margin: .7rem 0;
+}
+
+.searchContainer {
+    width: 100%;
+
+    .searchTitle {
+        color: #ffffff9b;
+        margin: .1rem 0 0 1.5rem;
+    }
+
+    .search_flex {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        .errorShow {
+            display: flex;
+            border-radius: .4rem;
+            height: 10rem;
+            width: 60rem;
+            border: 1px solid rgba(128, 128, 128, 0.459);
+            align-items: center;
+            font-size: 2.7rem;
+            color: #ffffff;
+            margin: 2rem 0 0 1rem;
+            padding: 0 4rem;
+
+            .fa-solid {
+                padding-left: 1rem;
+            }
+        }
+
+        .search_thumbnail {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            img {
+                width: 15.5rem;
+                height: fit-content;
+                background: $bg;
+
+            }
+
+            p {
+                position: absolute;
+                bottom: .5rem;
+                color: rgba(234, 234, 234, 0.843);
+                font-weight: bold;
+
+            }
+        }
+    }
+
+    img:hover {
+        border: 1px solid rgba(245, 197, 24, 0.612);
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .search_flex .search_thumbnail img {
+        width: 45.6vw !important;
+    }
+}

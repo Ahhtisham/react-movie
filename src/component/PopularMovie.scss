@@ -1,0 +1,125 @@
+@import "../scss/colorsroot.scss";
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Poster_name {
+    .fa-solid {
+        color: rgb(245, 197, 27);
+        position: relative;
+        left: 1.5rem;
+    }
+
+    margin: .6rem 0 0 0;
+    width: 25rem;
+    font-size: 2.7rem;
+    color: #ffffff;
+    padding: .7rem 1rem;
+}
+
+.popular_p {
+    width: 25rem;
+    color: #ffffff9b;
+    margin: .1rem 0 0 2.4rem;
+}
+
+.popular {
+    width: 100%;
+    margin-top: 1rem;
+
+    .thumbnail {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        img {
+            width: 15.5rem;
+            height: fit-content;
+            background: $bg;
+
+        }
+
+        img:hover {
+            border: 1px solid rgba(245, 197, 24, 0.612);
+
+
+        }
+
+        .title {
+            position: absolute;
+            bottom: .5rem;
+            color: rgba(234, 234, 234, 0.843);
+            font-weight: bold;
+
+        }
+
+
+    }
+}
+
+// topRated section 
+
+.Poster_name1 {
+    .fa-solid {
+        color: rgb(245, 197, 27);
+        position: relative;
+        left: 1.5rem;
+    }
+
+    margin: .6rem 0 0 0;
+    width: 25rem;
+    font-size: 2.7rem;
+    color: #ffffff;
+    padding: .7rem 1rem;
+}
+
+
+.rated_p {
+    width: 25rem;
+    color: #ffffff9b;
+    margin: .1rem 0 0 2.4rem;
+}
+
+.topRated {
+    width: 100%;
+    margin-top: 1rem;
+
+    .thumbnail {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+
+        img {
+            width: 15.5rem;
+            height: fit-content;
+            background: $bg;
+
+        }
+
+        img:hover {
+            border: 1px solid rgba(245, 197, 24, 0.612);
+        }
+
+        .title {
+            position: absolute;
+            bottom: .5rem;
+            color: rgba(234, 234, 234, 0.843);
+            font-weight: bold;
+
+        }
+    }
+}
+
+@media (max-width:600px) {
+
+    .popular.topRated,
+    .thumbnail img {
+        width: 45.6vw !important;
+    }
+
+}

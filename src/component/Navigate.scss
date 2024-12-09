@@ -1,0 +1,21 @@
+.Navigate {
+    color: rgba(14, 99, 190, 1);
+    text-decoration: none;
+    margin: 7rem 0 0 1.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    width: fit-content;
+
+    span {
+        position: relative;
+        top: .4rem;
+        color: rgb(7, 113, 227);
+        font-size: 2.1rem;
+    }
+}
+
+.Navigate:focus {
+    color: rgba(235, 191, 32, 0.912);
+}

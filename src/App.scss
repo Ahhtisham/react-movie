@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    font-size: 1.6rem;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    button {
+        cursor: pointer;
+    }
+}
+
+@media (max-width:600px) {
+    html {
+        font-size: 55%;
+    }
+}

@@ -1,0 +1,71 @@
+.poster {
+    width: 100%;
+    margin-top: 6rem;
+    display: block;
+}
+
+.carousel {
+    height: 60rem;
+    display: flex;
+    position: relative;
+
+}
+
+.carousel_details {
+    position: absolute;
+    padding: 0 0 4rem 1.4rem;
+    bottom: 0;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    color: #ffffffcf;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
+}
+
+
+.carousel_overly {
+    display: flex;
+}
+
+.carousel_title {
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.carousel_date {
+    font-weight: bold;
+}
+
+.carousel_vote {
+    margin: 0 0 .8rem 2rem;
+
+    .fas:hover {
+        color: rgb(245, 197, 27);
+    }
+}
+
+.over {
+    font-style: italic;
+    color: #ffffff8f;
+    text-align: left;
+    width: 60%;
+}
+
+@media (max-width:600px) {
+    .poster .carousel {
+        height: 40rem;
+
+        .carousel_title {
+            font-size: 2rem;
+        }
+
+        .over {
+            width: 85%;
+            font-size: 1.3rem;
+        }
+    }
+
+}
