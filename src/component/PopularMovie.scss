@@ -3,7 +3,6 @@
 .flex {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .Poster_name {
@@ -37,9 +36,11 @@
         text-align: center;
 
         img {
+            border-radius: .5rem;
             width: 15.5rem;
             height: fit-content;
             background: $bg;
+            filter: brightness(0.8);
 
         }
 
@@ -52,7 +53,7 @@
         .title {
             position: absolute;
             bottom: .5rem;
-            color: rgba(234, 234, 234, 0.843);
+            color: #ffffffea;
             font-weight: bold;
 
         }
@@ -95,9 +96,11 @@
         text-align: center;
 
         img {
+            border-radius: .5rem;
             width: 15.5rem;
             height: fit-content;
             background: $bg;
+            filter: brightness(0.8);
 
         }
 
@@ -108,7 +111,7 @@
         .title {
             position: absolute;
             bottom: .5rem;
-            color: rgba(234, 234, 234, 0.843);
+            color: #ffffffea;
             font-weight: bold;
 
         }

@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import "./PopularMovie.scss";
 
 const MovieSection = ({ sectionClassName, titleClassName, descClassName, title, description, movies }) => {
+    // Update title with change routes
+    useEffect(() => {
+        document.title = 'Movies';
+    }, []);
     return (
         <>
             <h1 className={titleClassName}>
