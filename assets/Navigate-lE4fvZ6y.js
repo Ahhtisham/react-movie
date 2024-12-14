@@ -1,0 +1,1 @@
+import{j as a,N as s,I as e}from"./index-B4_n0lA2.js";function i(){return a.jsx(a.Fragment,{children:a.jsx("div",{className:"Navigate",children:a.jsx(s,{className:"backHome",to:"/",children:a.jsx(e,{})})})})}export{i as N};
