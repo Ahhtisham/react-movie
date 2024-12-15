@@ -41,13 +41,10 @@
             height: fit-content;
             background: $bg;
             filter: brightness(0.8);
-
         }
 
         img:hover {
-            border: 1px solid rgba(245, 197, 24, 0.612);
-
-
+            filter: brightness(1);
         }
 
         .title {
@@ -55,10 +52,7 @@
             bottom: .5rem;
             color: #ffffffea;
             font-weight: bold;
-
         }
-
-
     }
 }
 
@@ -101,11 +95,11 @@
             height: fit-content;
             background: $bg;
             filter: brightness(0.8);
-
         }
 
         img:hover {
-            border: 1px solid rgba(245, 197, 24, 0.612);
+            filter: brightness(1);
+
         }
 
         .title {
@@ -124,5 +118,4 @@
     .thumbnail img {
         width: 45.6vw !important;
     }
-
 }

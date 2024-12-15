@@ -18,12 +18,12 @@ import {
 } from 'react-router-dom';
 
 function App() {
-  const { query, dispatch } = useGlobalContext()
+  const { query, dispatch, getSearchMovie } = useGlobalContext()
   return (
     <>
       <div className="app">
         <HashRouter>
-          <Header query={query} dispatch={dispatch} />
+          <Header query={query} dispatch={dispatch} getSearchMovie={getSearchMovie} />
           <Suspense fallback={<h1>LOADING...</h1>}>
             <Routes>
               <Route index element={<Slider />} />
