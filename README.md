@@ -1,6 +1,6 @@
-## React Movie
+## Movie-DATABASE
 
-## [Preview](https://ahtishamimran0.github.io/react-movie/)
+## [Preview](https://ahhtisham.github.io/react-movie/)
 
 ## Clone The Project
 
@@ -21,5 +21,5 @@ Start the server
 ```
 
 ```bash
-https://github.com/Ahtishamimran0/react-movie.git
+https://github.com/Ahhtisham/react-movie.git
 ```
